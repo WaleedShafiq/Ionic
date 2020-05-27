@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title class="ion-text-end">ترانيم</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-list>
+                    <app-tranem-item *ngFor="let tranem of tranems" [tranemItem]="tranem"></app-tranem-item>
+
+                </ion-list>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+
+
+</ion-content>
